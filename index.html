@@ -9,6 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Gloock&family=Judson:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.41/moment-timezone.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
@@ -21,7 +23,7 @@
         <option value="">Paris</option>
         <option value="">Tokyo</option>
       </select>
-      <div class="city">
+      <div class="city" id="vancouver">
         <div>
           <h2>Vancouver 🍁</h2>
           <div class="date">Friday, March 3rd 2023</div>
@@ -30,7 +32,7 @@
           <div class="time">6:29AM</div>
         </div>
       </div>
-      <div class="city">
+      <div class="city" id="paris">
         <div>
           <h2>Paris 🥐</h2>
           <div class="date">Friday, March 3rd 2023</div>
@@ -39,7 +41,7 @@
           <div class="time">6:29AM</div>
         </div>
       </div>
-      <div class="city">
+      <div class="city" id="los-angeles">
         <div>
           <h2>Los Angeles 📽️</h2>
           <div class="date">Friday, March 3rd 2023</div>

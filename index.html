@@ -10,44 +10,37 @@
       rel="stylesheet"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.41/moment-timezone.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select name="" id="" class="options">
+      <select name="" id="city" class="options">
         <option value="">-Choose a City-</option>
-        <option value="">Vancouver</option>
-        <option value="">Los Angeles</option>
-        <option value="">Paris</option>
-        <option value="">Tokyo</option>
+        <option value="Australia/Sydney">Sydney</option>
+        <option value="America/Argentina/Buenos_Aires">Buenos Aires</option>
+        <option value="Asia/Bangkok">Bangkok</option>
+        <option value="Africa/Nairobi">Nairobi</option>
       </select>
-      <div class="city" id="vancouver">
-        <div>
-          <h2>Vancouver 🍁</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="vancouver">
+          <div>
+            <h2>Vancouver 🍁</h2>
+            <div class="date">Friday, March 3rd 2023</div>
+          </div>
+          <div>
+            <div class="time">6:29AM</div>
+          </div>
         </div>
-        <div>
-          <div class="time"></div>
-        </div>
-      </div>
-      <div class="city" id="paris">
-        <div>
-          <h2>Paris 🥐</h2>
-          <div class="date"></div>
-        </div>
-        <div>
-          <div class="time"></div>
-        </div>
-      </div>
-      <div class="city" id="los-angeles">
-        <div>
-          <h2>Los Angeles 📽️</h2>
-          <div class="date">Friday, March 3rd 2023</div>
-        </div>
-        <div>
-          <div class="time">6:29AM</div>
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris 🥐</h2>
+            <div class="date">Friday, March 3rd 2023</div>
+          </div>
+          <div>
+            <div class="time">6:29AM</div>
+          </div>
         </div>
       </div>
     </div>

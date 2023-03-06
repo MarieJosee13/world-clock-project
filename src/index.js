@@ -21,7 +21,6 @@ function updateParis() {
     "h:mm:ss [<small>] a [</small>]"
   );
 }
-updateVancouver();
-updateParis;
+
 setInterval(updateVancouver, 1000);
 setInterval(updateParis, 1000);
